@@ -1,17 +1,21 @@
 import React from 'react';
-import Cats from './Cats.jsx';
+
+import Stream_Catelog from './subcomponents/Stream_Catelog.jsx';
+// import Cats from './Cats.jsx';
 
 class App extends React.Component {
   constructor(props) {
     super(props)
   }
-
   render() {
     return (
-      <div>
-        <h1>App.js is connected and working!</h1>
-        <Cats />
-      </div>
+      <React.Fragment>
+        <header>
+          <h1>Twitch Switch</h1>
+        </header>
+        <Stream_Catelog />
+
+      </React.Fragment>
     )
   }
 }

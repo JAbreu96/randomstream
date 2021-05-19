@@ -1,0 +1,73 @@
+.catelog {
+  width: 100%;
+  height: 900px;
+  max-width: 1980px;
+  min-width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.catelog-btn {
+  align-self: flex-start;
+}
+
+.stream-card {
+  border: solid 1px red;
+  width: 20%;
+  height: 500px;
+  max-width: 30%;
+  min-width: 20%;
+  margin-bottom: 5%;
+  font-size: .8em;
+  /* display: flex; */
+
+}
+
+.stream-card-info {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.stream-card-info button {
+  width: 50px;
+  height: 25px;
+}
+
+.stream-card-visual-img {
+  width: 100%;
+}
+
+.stream-card-broadcastinfo>* {
+  margin: 0;
+  width: fit-content;
+}
+
+.stream-card-info {
+  width: 100%;
+}
+.stream-card-info>* {
+  margin: 2px;
+}
+.stream-card-title {
+  font-size: .7em;
+}
+
+
+.stream-card-link {
+  justify-self: flex-end;
+}
+.stream-card-viewcount {
+  justify-self: flex-end;
+}
+.stream-card-startstamp {
+  justify-self: flex-end;
+}
+.stream-card-language {
+  align-self: flex-end;
+}

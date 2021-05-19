@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -20,7 +22,9 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
     "nodemon": "^2.0.6",
+    "style-loader": "^2.0.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
   }
