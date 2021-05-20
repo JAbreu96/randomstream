@@ -1,12 +1,74 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 249, 241);
+}
+
+.nav-bar {
+  margin: 0;
+  width: 100%;
+  height:60px;
+  color: rgb(251, 250, 248);
+  background-color: blueviolet;
+}
+
+.nav-bar-logo {
+  margin: 0;
+  width: fit-content;
+}
+
+.channel-list {
+  margin: 0 20px 0 20px;
+  background-color: transparent;
+}
+
+.channel-list-btn {
+  background-color: transparent;
+  color: rgba(137, 43, 226, 0.383);
+  font-weight: 900;
+  border: none;
+  margin-left: 5px;
+  padding: 0 5px 0 5px;
+  border-left: rgb(137, 43, 226) 10px solid;
+  height: 50px;
+  width: fit-content;
+  font-size: 1em;
+}
+
+.view {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-btn, .stream-card-link {
+  border: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  height: 50px;
+  width: 100px;
+  border-radius: 1em;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.rand {
+  background: transparent;
+  border:rgba(137, 43, 226, 0.383) solid 5px;
+  color: rgba(137, 43, 226, 0.383);
+}
+
 .catelog {
   width: 100%;
-  height: 900px;
+  /* height: 900px; */
   max-width: 1980px;
   min-width: 500px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  overflow: scroll;
+  border-left: rgba(137, 43, 226, 0.383) 10px solid;
+  border-right: rgba(137, 43, 226, 0.383) 10px solid;
+  align-self: center;
+  /* overflow: scroll; */
 }
 
 .catelog-btn {
@@ -14,24 +76,30 @@
 }
 
 .stream-card {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 20%;
   height: 500px;
   max-width: 30%;
   min-width: 20%;
+  margin: 20px;
+
   margin-bottom: 5%;
-  font-size: .8em;
+  font-size: .9em;
+  border-radius: 15px;
+  overflow: hidden;
   /* display: flex; */
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.178);
 
 }
 
 .stream-card-info {
   width: 100%;
   height: 100%;
-
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 .stream-card-info button {
@@ -39,28 +107,34 @@
   height: 25px;
 }
 
+.stream-card-info>* {
+  margin: 2px;
+}
+
+.stream-card-visual {
+  height:50%;
+}
+
 .stream-card-visual-img {
   width: 100%;
+  height: 100%;
 }
 
 .stream-card-broadcastinfo>* {
   margin: 0;
+  padding: 0 5px;
   width: fit-content;
 }
 
-.stream-card-info {
-  width: 100%;
-}
-.stream-card-info>* {
-  margin: 2px;
-}
 .stream-card-title {
-  font-size: .7em;
+  font-size: 1rem;
 }
-
 
 .stream-card-link {
   justify-self: flex-end;
+  margin: 0;
+
+  border-radius: 7%;
 }
 .stream-card-viewcount {
   justify-self: flex-end;
@@ -70,4 +144,15 @@
 }
 .stream-card-language {
   align-self: flex-end;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.726);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.footer>* {
+  margin: 15px;
 }

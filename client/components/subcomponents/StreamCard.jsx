@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactTwitchEmbedVideo from "react-twitch-embed-video";
 
 const StreamCard = (props) => {
   // console.log(props.stream);
@@ -11,15 +12,19 @@ const StreamCard = (props) => {
         <img src={thumbnail_url} alt="thumbnail" className="stream-card-visual-img" />
       </div>
       <div className='stream-card-info'>
-        <div class="stream-card-broadcastinfo">
+        <div className="stream-card-broadcastinfo">
           <h2 className='stream-card-username'>{user_name}</h2>
           <h3 className='stream-card-title'>{title}</h3>
           <h3 className='stream-card-game'>{game_name}</h3>
         </div>
-        <div class="stream-card-etc">
-          <button className='stream-card-link'><a href={props.url}>Watch</a></button>
-          <p className='stream-card-viewcount'>{viewer_count}</p>
-          <p className='stream-card-startstamp'>{started_at}</p>
+        <div className="stream-card-etc">
+          <button className='stream-card-link' onClick={(e) => {
+            window.scrollTo(0, 0);
+            document.getElementById('stream-list').scrollTo(0, 0);
+            props.changeStream(user_name, props.stream)
+          }}>Watch</button>
+          <p className='stream-card-viewcount'>Viewers: {viewer_count}</p>
+          <p className='stream-card-startstamp'>Broadcast Time: {started_at}</p>
           <p className='stream-card-language'>Language: {language}</p>
         </div>
       </div>
