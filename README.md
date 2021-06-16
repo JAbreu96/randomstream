@@ -1,3 +1,5 @@
+
+
 Randomize Twitch Stream
 ------------
 Twitch Fans who want to discover new streamers
@@ -27,4 +29,12 @@ How to use the application!
 4. You can watch a stream on a card below by clicking watch
 5. You are also able to watch previously viewed stream by click buttons above the player with name that interests you
 
+
+https://user-images.githubusercontent.com/67124370/122264353-71da7500-cea5-11eb-8944-2f941dbd59e7.mp4
+
+
+https://user-images.githubusercontent.com/67124370/122264416-83238180-cea5-11eb-9677-57681a420140.mp4
+
+
+https://user-images.githubusercontent.com/67124370/122264442-8ae32600-cea5-11eb-9e02-004be4159917.mp4
 
