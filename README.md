@@ -30,18 +30,18 @@ How to use the application!
 ----------------
 
 https://user-images.githubusercontent.com/67124370/122264353-71da7500-cea5-11eb-8944-2f941dbd59e7.mp4
------------------------------------
+
 
 5. You can choose a stream from the catelog below!
-----------------
+
 https://user-images.githubusercontent.com/67124370/122264416-83238180-cea5-11eb-9677-57681a420140.mp4
------------------------------------
+
 
 6. You can generate a new list
 7. The list above the Stream keeps track of streams you have visited!
-----------------
+
 https://user-images.githubusercontent.com/67124370/122264442-8ae32600-cea5-11eb-9e02-004be4159917.mp4
------------------------------------
+
 
 Technologies:
 · React.js
